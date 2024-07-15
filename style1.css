@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s;
+}
+
+#quote-container {
+    text-align: center;
+}
+
+#greeting {
+    font-size: 24px;
+}
+
+#quote {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#new-quote {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
